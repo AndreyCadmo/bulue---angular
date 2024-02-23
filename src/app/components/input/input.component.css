@@ -1,0 +1,36 @@
+/* Input */
+
+.input-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.input-content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 1rem 0;
+    width: 22rem;
+    height: 2.5rem;
+    background: #D9D9D9;
+    border-radius: 11px;
+}
+
+.input-container input {
+    width: 70%;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.input-container img {
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+}

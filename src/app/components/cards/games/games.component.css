@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-cards);
+    position: relative;
+    padding: 10px ;
+    border-radius: 25px;
+    gap: 0.5rem;
+}
+
+.card img {
+    height: 10rem;
+    border-radius: 20px;
+}
+
+.card-content p {
+    margin: 0;
+    font-size: 1rem;
+}

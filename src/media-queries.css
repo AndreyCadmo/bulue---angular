@@ -1,0 +1,49 @@
+@media screen and (orientation: portrait), (max-width: 780px){
+  #button-info,
+  #button-install {
+    display: none;
+  }
+  .notice {
+    flex-direction: column;
+  }
+  .options-support-container,
+  .support-tickets,
+  .bengin-start,
+  .bengin-end {
+    align-items: center;
+    flex-direction: column;
+  }
+  .support-options-tickets {
+    gap: 1rem;
+  }
+
+  .options-bengin {
+    margin: 1rem;
+  }
+
+  .news-card {
+    flex-direction: column;
+  }
+  .website-container,
+  .news-container {
+    padding: 3vw;
+  }
+  .options-support-container {
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 780px) {
+  .menuButton,
+  .nav-menu {
+    display: none;
+  }
+  .website-container,
+  .news-container {
+    padding: 2vw 15vw;
+  }
+  .options-support-container {
+    gap: 2vw;
+  }
+  
+}

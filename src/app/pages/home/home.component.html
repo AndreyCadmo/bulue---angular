@@ -1,0 +1,42 @@
+<div class="website-container">
+  <div class="website-contant">
+    <div id="home">
+      <div class="notice">
+        <div class="image-notice">
+          <a href="">
+            <img
+              src="https://pbs.twimg.com/media/FxZRVVMXwAISrNw?format=jpg&name=large"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="text-notice">
+          <h1>Silent Tokyo</h1>
+          <p>
+            Lorem ipsumdolor sit amet, consectetur adipisicing elit. Enim iste
+            officia consequatur ipsum delectus nobis earum deleniti veritatis
+            laboriosam incidunt eos blanditiis, facere in. Dolorem aspernatur
+            voluptatum beatae nam aperiam! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Modi quod nihil blanditiis! Modi
+            debitis, perspiciatis a reiciendis mollitia commodi alias temporibus
+            dolorum, sed distinctio quam voluptatum quasi voluptate maxime
+            consequuntur! Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Velit architecto possimus rem distinctio necessitatibus
+            assumenda eius. Culpa veniam labore, quaerat cum dolorum nostrum
+            eveniet eum incidunt impedit nam, veritatis ducimus.
+          </p>
+        </div>
+      </div>
+
+      <!-- Input -->
+      <app-input></app-input>
+
+      <!-- Cards -->
+      <div class="cards-container">
+        <app-games *ngFor="let content of cards" [game]="content"></app-games>
+      </div>
+
+    </div>
+  </div>
+</div>

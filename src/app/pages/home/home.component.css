@@ -1,0 +1,29 @@
+.notice {
+  display: flex;
+  background-color: var(--color-cards);
+  position: relative;
+  padding: 1rem;
+  border-radius: 30px;
+  gap: 1rem;
+}
+
+.image-notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notice img {
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+
+/* Card games */
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 180px);
+    justify-content: center;
+    gap: 1rem;
+}
+

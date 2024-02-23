@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+/* Font */
+@import url(./media-queries.css);
+@font-face {
+    font-family: "JockeyOne";
+    src: url("./assets/font/JockeyOne.ttf") format('truetype');
+}
+
+/* Vars */
+:root {
+    /* colors */
+    --color-header: #1C1B23;
+    --color-cards: #1D1F23;
+    --color-background-website: #292730;
+    --color-purple: #713CC8;
+
+    /* Suport */
+    --color-background-suport:#16151B;
+    --color-button-suport: #2D2A3D;
+    --color-background-suport-tickets: #292730;
+    --color-button-suport-tickets:#16151B;
+
+    /* Bengin */
+    --color-backgroud-bengin: #1C1B23;
+    --color-button-bengin: #713CC8;
+
+    /* Profile */
+    --color-background-profile: rgb(28, 27, 35 ,0.5);
+    --background-button-profile: #1C1B23;
+    
+    /* Social */
+    --background-social-cards: #313039;
+    
+    /* Button Header*/
+    --color-button-header: #713CC8;
+
+    /* font*/
+    --font-family: "JockeyOne", sans-serif;
+    --font-color: #fff;
+    --font-color-info-header: #5B57FA;
+}
+
+/* GERAL */
+body {
+    position: relative;
+    background-color: var(--color-background-website);
+    margin: 0;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+.section-container {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contant{
+    flex: 1;
+}
+
+.website-contant {
+    display: flex;
+    flex-direction: column;
+    /* padding: 2vh 20vw ; */
+    /* padding: 1rem 13rem; */
+}
+
+/* ScrollBar */
+::-webkit-scrollbar-track {
+    background: var(--color-header);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: var(--color-purple);
+}

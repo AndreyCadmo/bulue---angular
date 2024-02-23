@@ -1,0 +1,128 @@
+@media screen and (orientation: portrait), (max-width: 780px) {
+  .website-logo img {
+    width: 30vw;
+  }
+  .img-profile {
+    width: 9vw;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 780px) {
+  .website-logo img {
+    width: 10vw;
+  }
+  .img-profile {
+    width: 3.5vw;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1vw;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--color-header);
+  box-shadow: #000 1px 1px 1vw;
+  min-height: 2rem;
+}
+
+.header-contant {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.website-logo img:hover {
+  cursor: pointer;
+}
+
+.header-contant .options {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  align-items: center;
+  gap: 2vw;
+}
+
+.img-profile {
+  border-radius: 100%;
+}
+
+/* Info buttons */
+.options {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  margin: 0 5vw;
+  width: 100%;
+  gap: 2vw;
+}
+
+.info a {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: var(--font-color-info-header);
+}
+
+/* Button Download */
+.button {
+  width: 10.5vw;
+  height: 2.5vw;
+  background-color: var(--color-button-header);
+  border: none;
+  border-radius: 5px;
+  color: var(--font-color);
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* Menu */
+
+.nav-menu {
+  width: 100%;
+  max-height: 20rem;
+  transition: max-height 0.5s ease-in;
+  overflow: hidden;
+}
+.nav-menu ul {
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  background-color: #292730;
+  list-style: none;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: var(--font-color-info-header);
+}
+
+#menu.hidden {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
+.menuButton {
+  background: transparent;
+  border: none;
+}
+
+.menuButton img {
+  width: 3rem;
+}
+
+.menuButton:hover {
+  cursor: pointer;
+}

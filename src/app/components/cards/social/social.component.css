@@ -1,0 +1,44 @@
+@media screen and (orientation: portrait), (max-width: 780px) {
+  .social-image img {
+    width: 20vw;
+  }
+  .social-card {
+    padding: 2vw;
+    gap: 2vw;
+  }
+  .social-details {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .social-image img {
+    width: 4vw;
+  }
+  .social-card {
+    padding: 0.5vw;
+    gap: 0.5vw;
+  }
+  .social-details {
+    font-size: 0.9vw;
+  }
+}
+
+.social-image img {
+  border-radius: 100%;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-social-cards);
+  border-radius: 1rem;
+  margin: 1vw 0;
+}
+.social-details {
+  display: flex;
+  flex-direction: column;
+}
+.social-details p {
+  margin: 0;
+}

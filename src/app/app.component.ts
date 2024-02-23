@@ -1,17 +1,28 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from "@angular/core";
+import { RouterLink, RouterLinkActive, RouterOutlet } from "@angular/router";
+import { HeaderComponent } from "./components/header/header.component";
+
+// import { NoticeComponent } from "./index/notice/notice.component";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet,
+    RouterLink,
+    RouterLinkActive,
+    HeaderComponent,
+  ],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
+    <section class="section-container">
+    <app-header></app-header>
+    <main class="main-contant">
+    <router-outlet></router-outlet>
+    </main>
+    </section>
   `,
-  styles: [],
+  styles: "",
 })
 export class AppComponent {
-  title = 'Bulue-Angular';
+  title = "Bulue";
 }

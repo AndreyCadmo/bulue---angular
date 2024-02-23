@@ -1,0 +1,43 @@
+@media screen and (orientation: portrait), (max-width: 780px) {
+  .news-card {
+    padding: 2vw;
+    gap: 1vw;
+    margin: 5vw 0;
+    border-radius: 5vw;
+  }
+  .news-card-image img {
+    height: 90vw;
+    border-radius: 4vw;
+  }
+  .card-text p,
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 780px) {
+  .news-card {
+    padding: 0.5vw;
+    gap: 1vw;
+    margin: 1vw 0;
+    border-radius: 2vw;
+  }
+  .news-card-image img {
+    height: 15vw;
+    border-radius: 1.5vw;
+  }
+  .card-text p,
+  h1 {
+    font-size: 1.2vw;
+  }
+}
+
+.news-card {
+  display: flex;
+  background-color: var(--color-cards);
+}
+.news-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

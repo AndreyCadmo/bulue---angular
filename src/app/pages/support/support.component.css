@@ -1,0 +1,121 @@
+@media screen and (orientation: portrait), (max-width: 780px) {
+  .support-buttons-tickets {
+    gap: 2vw;
+  }
+  .support-buttons-tickets button {
+    font-size: 3vw;
+    padding: 1.5vw 2vw;
+  }
+  .support-image img {
+    width: 90vw;
+  }
+  .support-tickets {
+    padding: 1rem 1rem 0 1rem;
+  }
+  .support-text-tickets label {
+    font-size: 5vw;
+  }
+  .options-support-contant{
+    gap: 2vw;
+  }
+  .options-support-contant button {
+    width: 50vw;
+    padding: 2vw 0;
+    font-size: 5vw;
+  }
+  .support-image label {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .support-buttons-tickets button {
+    font-size: 1.2vw;
+    padding: 1.5vw 1vw;
+  }
+  .support-buttons-tickets {
+    gap: 1vw;
+  }
+  .support-image img {
+    width: 19vw;
+  }
+  .support-tickets {
+    padding: 1vw 1vw 0 1vw;
+  }
+  .support-text-tickets label {
+    font-size: 2vw;
+  }
+  .options-support-contant button {
+    width: 20vw;
+    padding: 1vw 0;
+    border-radius: 1vw;
+    font-size: 1vw;
+  }
+  .support-image label {
+    font-size: 1vw;
+  }
+  .options-support-contant {
+    gap: 0.5vw;
+  }
+}
+
+.options-support-container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-background-suport);
+  padding: 4vw 0;
+}
+.options-support-contant {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.options-support-contant button {
+  border: none;
+  background-color: var(--color-button-suport);
+  color: var(--font-color);
+  font-weight: 1000;
+  border-radius: 1vw;
+}
+
+/* Support Tickets */
+.support-tickets {
+  display: flex;
+  flex: 1;
+  gap: 1vw;
+  background-color: var(--color-background-suport-tickets);
+}
+
+.support-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.support-image img {
+  border-radius: 20px;
+}
+
+.support-buttons-tickets {
+  display: flex;
+  justify-content: center;
+}
+.support-buttons-tickets button {
+  font-weight: 1000;
+  color: var(--font-color);
+  border: none;
+  background-color: var(--color-button-suport-tickets);
+  border-radius: 0.5rem;
+}
+
+.support-options-tickets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.support-text-tickets{
+  flex: 1;
+}

@@ -1,0 +1,10 @@
+<section class="news-container">
+  <div class="news-contant">
+    <div class="news-title">
+      <h1>Novidades</h1>
+    </div>
+    <div class="news-cards-container">
+      <app-news-card *ngFor="let content of cards" [news]="content" ></app-news-card>
+    </div>
+  </div>
+</section>

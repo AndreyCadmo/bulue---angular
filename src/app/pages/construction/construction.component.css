@@ -1,0 +1,34 @@
+.construction-container {
+    padding: 1rem 2rem;
+}
+
+.construction-contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-error-construction img{
+    width: 20rem;
+}
+
+.text-construction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-construction h1 {
+    text-align: center;
+}
+
+.text-construction a {
+    border-radius: 8px;
+    color: var(--font-color);
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--color-button-construction);
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}

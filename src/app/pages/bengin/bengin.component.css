@@ -92,4 +92,8 @@
   font-weight: 1000;
 }
 
+.options-bengin button:hover {
+  cursor: pointer;
+}
+
 

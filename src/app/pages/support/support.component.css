@@ -80,6 +80,10 @@
   border-radius: 1vw;
 }
 
+.options-support-contant button:hover {
+  cursor: pointer;
+}
+
 /* Support Tickets */
 .support-tickets {
   display: flex;
@@ -108,6 +112,10 @@
   border: none;
   background-color: var(--color-button-suport-tickets);
   border-radius: 0.5rem;
+}
+
+.support-buttons-tickets button:hover {
+  cursor: pointer;
 }
 
 .support-options-tickets {

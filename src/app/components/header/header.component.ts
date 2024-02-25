@@ -11,7 +11,6 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 export class HeaderComponent {
 
   public menuButton(): void {
-    console.log('Chamou func')
     const divMenu = document.getElementById("menu");
     divMenu?.classList.toggle('hidden');
   }

@@ -1,47 +1,19 @@
 <header class="header-container">
   <div class="header-contant">
     <div class="website-logo">
-      <img
-        routerLink="/"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        src="../../../assets/image/logos/logo-header.png"
-        alt=""
-      />
+      <img routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page"
+        src="../../../assets/image/logos/logo-header.png" alt="" />
     </div>
 
     <div id="button-info" class="info">
-      <a
-        routerLink="/news"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Novidades</a
-      >
-      <a
-        routerLink="/support"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Suporte</a
-      >
-      <a
-        routerLink="/bengin"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Bengin</a
-      >
+      <a routerLink="/news" routerLinkActive="active" ariaCurrentWhenActive="page">Novidades</a>
+      <a routerLink="/support" routerLinkActive="active" ariaCurrentWhenActive="page">Suporte</a>
+      <a routerLink="/bengin" routerLinkActive="active" ariaCurrentWhenActive="page">Bengin</a>
     </div>
 
     <div class="options">
-      <a
-        routerLink="/profile"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-      >
-        <img
-          id="image-profile"
-          class="img-profile"
-          src="https://avatars.githubusercontent.com/u/49537908?v=4"
-        />
+      <a routerLink="/construction" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <img id="image-profile" class="img-profile" src="https://avatars.githubusercontent.com/u/49537908?v=4" />
       </a>
       <button id="button-install" class="button" type="button">
         <span class="button-text">Download</span>
@@ -49,7 +21,7 @@
 
       <!-- MENU BUTTON -->
 
-      <button class="menuButton" id="menuButton" (click)="menuButton()">
+      <button class="menuButton" id="menuButton" (click)="menuButton()" >
         <img src="../../../assets/svg/menuicon.svg" alt="" />
       </button>
     </div>
@@ -59,31 +31,15 @@
   <nav class="nav-menu hidden" id="menu">
     <ul>
       <li>
-        <a
-          routerLink="/news"
-          routerLinkActive="active"
-          ariaCurrentWhenActive="page"
-          (click)="menuButton()"
-          >Novidades</a
-        >
+        <a routerLink="/news" routerLinkActive="active" ariaCurrentWhenActive="page"
+          (click)="menuButton()">Novidades</a>
       </li>
       <li>
-        <a
-          routerLink="/support"
-          routerLinkActive="active"
-          ariaCurrentWhenActive="page"
-          (click)="menuButton()"
-          >Suporte</a
-        >
+        <a routerLink="/support" routerLinkActive="active" ariaCurrentWhenActive="page"
+          (click)="menuButton()">Suporte</a>
       </li>
       <li>
-        <a
-          routerLink="/bengin"
-          routerLinkActive="active"
-          ariaCurrentWhenActive="page"
-          (click)="menuButton()"
-          >Bengin</a
-        >
+        <a routerLink="/bengin" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="menuButton()">Bengin</a>
       </li>
     </ul>
   </nav>

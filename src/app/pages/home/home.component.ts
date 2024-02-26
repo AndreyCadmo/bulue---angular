@@ -21,7 +21,7 @@ export class HomeComponent {
   cards: gamelist[] = [
     {
       image: "../../../../assets/image/games/Laaelle.jpg",
-      name: "Laa Ellee",
+      name: "Laa Ellee Origins",
       price: "40,20",
     },
     {
@@ -30,34 +30,20 @@ export class HomeComponent {
       price: "99,99",
     },
     {
-      image: "../../../../assets/image/games/cadeira.jpg",
-      name: "Cadeira",
+      image: "../../../../assets/image/games/liminalSpaces2.jpg",
+      name: "Liminal Spaces 2",
       price: "109,99",
     },
     {
-      image: "../../../../assets/image/games/cadeira.jpg",
-      name: "Cadeira",
-      price: "109,99",
+      image: "../../../../assets/image/games/limics.jpg",
+      name: "Limics",
+      price: "90",
     },
     {
-      image: "../../../../assets/image/games/cadeira.jpg",
-      name: "Cadeira",
-      price: "109,99",
-    },
-    {
-      image: "../../../../assets/image/games/cadeira.jpg",
-      name: "Cadeira",
-      price: "109,99",
-    },
-    {
-      image: "../../../../assets/image/games/cadeira.jpg",
-      name: "Cadeira",
-      price: "109,99",
-    },
-    {
-      image: "../../../../assets/image/games/cadeira.jpg",
-      name: "Cadeira",
-      price: "109,99",
-    },
+      image: "../../../../assets/image/games/limics2.png",
+      name: "Limics 2",
+      price: "120",
+    }
   ];
 }
+ 

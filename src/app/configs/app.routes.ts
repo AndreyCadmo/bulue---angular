@@ -10,5 +10,6 @@ export const routes: Routes = [
   { path: "support", component: SupportComponent },
   { path: "bengin", component: BenginComponent },
   { path: "construction", component: ConstructionComponent },
+  { path: "**", component: HomeComponent},
   { path: "", component: HomeComponent},
 ];

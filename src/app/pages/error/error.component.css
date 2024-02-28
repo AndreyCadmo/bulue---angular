@@ -1,0 +1,83 @@
+@media screen and (orientation: portrait), (max-width: 780px) {
+  .text-404 h1 {
+    font-size: 50vw;
+  }
+  .text-404 p {
+    font-size: 8vw;
+  }
+  .contant-404 p {
+    font-size: 6vw;
+  }
+  .contant-404 button {
+    width: 50vw;
+    height: 15vw;
+    font-size: 6vw;
+  }
+  .contant-404 button {
+    border-radius: 2vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  .text-404 h1 {
+    font-size: 10vw;
+  }
+  .text-404 p {
+    font-size: 2vw;
+  }
+  .contant-404 p {
+    font-size: 2vw;
+  }
+  .contant-404 button {
+    width: 20vw;
+    height: 5vw;
+    font-size: 2vw;
+  }
+  .contant-404 button {
+    border-radius: 0.5vw;
+  }
+}
+.container-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--background-404);
+}
+.text-404 h1 {
+  color: var(--title-404);
+  margin: 0;
+}
+.text-404 p {
+  margin: 0 0 1rem 0;
+}
+.contant-404 {
+  display: flex;
+  padding: 2vw;
+  flex-direction: column;
+  align-items: center;
+}
+.contant-404 p {
+  text-align: center;
+  margin: 0;
+}
+
+.contant-404 button {
+  margin-top: 5vw;
+  background-color: var(--button-404);
+  color: var(--font-color);
+  padding: auto;
+  font-weight: bold;
+  text-transform: none;
+  border: none;
+}
+
+.contant-404 button:hover {
+  cursor: pointer;
+}

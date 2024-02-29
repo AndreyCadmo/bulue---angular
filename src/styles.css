@@ -12,7 +12,11 @@
     --color-cards: #1D1F23;
     --color-background-website: #292730;
     --color-purple: #713CC8;
-
+     
+    /* menu info */
+    --background-menu-info: #1C1B23;
+    --background-button-menu-info: #292730;
+    
     /* Suport */
     --color-background-suport:#16151B;
     --color-button-suport: #2D2A3D;

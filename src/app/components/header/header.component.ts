@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { Component } from "@angular/core";
+import { RouterLink, RouterLinkActive, RouterOutlet } from "@angular/router";
 
 @Component({
   selector: "app-header",
@@ -9,9 +9,17 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   styleUrl: "./header.component.css",
 })
 export class HeaderComponent {
-
   public menuButton(): void {
     const divMenu = document.getElementById("menu");
-    divMenu?.classList.toggle('hidden');
+    if (divMenu) {
+      divMenu.classList.toggle("hidden");
+    }
+  }
+
+  public menuInfoButton(): void {
+    const divMenuInfo = document.getElementById("menu-info");
+    if (divMenuInfo) {
+      divMenuInfo.classList.toggle("hidden");
+    }
   }
 }

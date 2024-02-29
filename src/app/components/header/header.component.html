@@ -12,8 +12,8 @@
     </div>
 
     <div class="options">
-      <a routerLink="/construction" routerLinkActive="active" ariaCurrentWhenActive="page">
-        <img id="image-profile" class="img-profile" src="https://avatars.githubusercontent.com/u/49537908?v=4" />
+      <a (click)="menuInfoButton()">
+        <img id="image-profile" class="img-profile" src="../../../assets/image/avatar-default.png" />
       </a>
       <button id="button-install" class="button" type="button">
         <span class="button-text">Download</span>
@@ -26,7 +26,7 @@
       </button>
     </div>
   </div>
-  <!-- MENU CONTENT -->
+  <!-- Menu Phone-->
 
   <nav class="nav-menu hidden" id="menu">
     <ul>
@@ -43,4 +43,14 @@
       </li>
     </ul>
   </nav>
+
+  <!-- Menu info -->
+  <nav class="menu-info hidden" id="menu-info">
+    <button routerLink="/construction" routerLinkActive="active" ariaCurrentWhenActive="page"(click)="menuInfoButton()">Perfil</button>
+    <button routerLink="/construction" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="menuInfoButton()">Modo</button>
+    <button routerLink="/construction" routerLinkActive="active" ariaCurrentWhenActive="page"(click)="menuInfoButton()">Jogos</button>
+    <button routerLink="/construction" routerLinkActive="active" ariaCurrentWhenActive="page"(click)="menuInfoButton()">Configuração</button>
+    <button routerLink="/creator" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="menuInfoButton()">Sobre o Criador</button>
+  </nav>
+
 </header>

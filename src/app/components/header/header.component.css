@@ -5,6 +5,9 @@
   .img-profile {
     width: 9vw;
   }
+  .menu-info {
+    display: none;
+  }
 }
 
 @media screen and (orientation: landscape) and (min-width: 780px) {
@@ -47,6 +50,9 @@
 
 .img-profile {
   border-radius: 100%;
+}
+.img-profile:hover {
+  cursor: pointer;
 }
 
 /* Info buttons */
@@ -124,5 +130,40 @@
 }
 
 .menuButton:hover {
+  cursor: pointer;
+}
+
+/* Menu Info */
+
+.menu-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+  position: absolute;
+  top: 6vw;
+  right: 7vw;
+  background-color: var(--background-menu-info);
+  border-radius: 0.5vw;
+  padding: 0.5vw 2vw;
+  z-index: 1;
+  max-height: 20rem;
+  overflow: hidden;
+}
+
+#menu-info.hidden {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.6s ease-out, opacity 1s ease-in-out;
+}
+
+.menu-info button {
+  border: none;
+  text-decoration: none;
+  background-color: var(--background-button-menu-info);
+  color: var(--font-color);
+  font-weight: bold;
+  padding: 0.5vw 1.5vw;
+}
+.menu-info button:hover {
   cursor: pointer;
 }

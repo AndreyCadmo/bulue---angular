@@ -22,6 +22,9 @@
     /* Pagina construção */
     --color-button-construction: #797786;
 
+    /* Card Creator */
+    --background-creator: #1D1F23;
+    
     /* Error */
     --background-404: #1C1B23;
     --button-404: #1C1B23;
